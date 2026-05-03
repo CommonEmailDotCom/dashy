@@ -5,7 +5,7 @@
     :src="frameUrl"
     :id="frameId"
     title="Iframe Widget"
-    allow="fullscreen; clipboard-write"
+    allow="camera; microphone; fullscreen; clipboard-write; display-capture"
     :style="frameHeight ? `height: ${frameHeight}px` : ''"
   />
 </div>
